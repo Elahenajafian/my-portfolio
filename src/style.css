@@ -6,11 +6,6 @@
   --box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-body {
-  max-width: 1400px;
-  min-width: 1200px;
-}
-
 a {
   text-decoration: none;
   color: var(--moderate-color);
