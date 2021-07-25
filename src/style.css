@@ -1,0 +1,89 @@
+:root {
+  --light-primary-color: #c6e872;
+  --dark-primary-color: #083836;
+  --moderate-color: #66d37e;
+  --hover-color: #fff0a5;
+  --box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+body {
+  max-width: 1400px;
+  min-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--moderate-color);
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+body {
+  background-color: var(--light-primary-color);
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+button {
+  margin: 60px;
+  padding: 20px;
+  border-radius: 4px;
+  height: 80px;
+  width: 150px;
+  font-size: 20px;
+  border: 0px;
+  color: white;
+  background-color: var(--dark-primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.button {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#contact {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#my-description {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 420px;
+}
+
+#packet {
+  border-radius: 8px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+#back-homepage-down {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+
+#back-homepage-up {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
