@@ -77,8 +77,14 @@ button {
   margin-top: -30px;
 }
 
-#back-homepage-up {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: -20px;
+#nav-bar {
+  background-color: #095450;
+}
+
+.navbar-brand {
+  color: var(--hover-color);
+}
+
+.collapse.navbar-collapse li a {
+  color: var(--hover-color);
 }
