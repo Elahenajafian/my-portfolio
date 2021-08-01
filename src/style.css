@@ -1,8 +1,8 @@
 :root {
   --light-primary-color: #c6e872;
   --dark-primary-color: #083836;
-  --moderate-color: #66d37e;
-  --hover-color: #fff0a5;
+  --moderate-color: #fff0a5;
+  --hover-color: #66d37e;
   --box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -54,13 +54,6 @@ button {
   margin-top: 50px;
 }
 
-#my-description {
-  display: block;
-  margin: 0 auto;
-  margin-top: 30px;
-  max-width: 420px;
-}
-
 #packet {
   border-radius: 8px;
   display: block;
@@ -81,10 +74,21 @@ button {
   background-color: #095450;
 }
 
+#weather-app-button {
+  margin-left: -2px;
+  margin-top: 15px;
+}
+
+#about-h3 {
+  text-align: center;
+  color: #242729;
+  margin: 20px;
+}
+
 .navbar-brand {
-  color: var(--hover-color);
+  color: var(--moderate-color);
 }
 
 .collapse.navbar-collapse li a {
-  color: var(--hover-color);
+  color: var(--moderate-color);
 }
