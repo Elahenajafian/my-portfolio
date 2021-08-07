@@ -92,3 +92,8 @@ button {
 .collapse.navbar-collapse li a {
   color: var(--moderate-color);
 }
+
+.img-fluid {
+  width: auto;
+  height: 270px;
+}
