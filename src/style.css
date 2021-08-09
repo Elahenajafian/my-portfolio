@@ -1,18 +1,19 @@
 :root {
-  --light-primary-color: #c6e872;
-  --dark-primary-color: #083836;
-  --moderate-color: #fff0a5;
-  --hover-color: #66d37e;
+  --light-primary-color: #e1f4cb;
+  --dark-primary-color: #bacba9;
+  --dark-secondary-color: #5d534a;
+  --light-secondary-color: #717568;
+  --contrast-color: #f1bf98;
   --box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 a {
   text-decoration: none;
-  color: var(--moderate-color);
+  color: var(--dark-secondary-color);
 }
 
 a:hover {
-  color: var(--hover-color);
+  color: var(--light-secondary-color);
 }
 
 body {
@@ -30,17 +31,14 @@ h2 {
   margin-top: 40px;
 }
 
-button {
-  margin: 60px;
-  padding: 20px;
-  border-radius: 4px;
-  height: 80px;
-  width: 150px;
-  font-size: 20px;
-  border: 0px;
-  color: white;
-  background-color: var(--dark-primary-color);
-  box-shadow: var(--box-shadow);
+.btn {
+  background-color: var(--light-secondary-color);
+  color: var(--light-primary-color);
+}
+
+.btn:hover {
+  color: var(--contrast-color);
+  background-color: var(--dark-secondary-color);
 }
 
 .button {
@@ -71,7 +69,7 @@ button {
 }
 
 #nav-bar {
-  background-color: #095450;
+  background-color: var(--dark-primary-color);
 }
 
 #weather-app-button {
@@ -79,14 +77,10 @@ button {
   margin-top: 15px;
 }
 
-#about-h3 {
-  text-align: center;
-  color: #242729;
-  margin: 20px;
-}
-
 .navbar-brand {
   color: var(--moderate-color);
+  font-size: 23px;
+  font: Gowun Dodum;
 }
 
 .collapse.navbar-collapse li a {
@@ -94,6 +88,6 @@ button {
 }
 
 .img-fluid {
-  width: auto;
-  height: 270px;
+  width: 340px;
+  height: 250px;
 }
