@@ -32,13 +32,14 @@ h2 {
 }
 
 .btn {
-  background-color: var(--light-secondary-color);
-  color: var(--light-primary-color);
+  color: var(--contrast-color);
+  background-color: var(--dark-secondary-color);
+  padding: 18px;
 }
 
 .btn:hover {
-  color: var(--contrast-color);
-  background-color: var(--dark-secondary-color);
+  color: var(--dark-secondary-color);
+  background-color: var(--contrast-color);
 }
 
 .button {
@@ -85,9 +86,4 @@ h2 {
 
 .collapse.navbar-collapse li a {
   color: var(--moderate-color);
-}
-
-.img-fluid {
-  width: 340px;
-  height: 250px;
 }
