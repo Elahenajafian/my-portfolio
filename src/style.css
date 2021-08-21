@@ -84,3 +84,7 @@ h2 {
 .collapse.navbar-collapse li a {
   color: var(--light-primary) !important;
 }
+
+.card-body {
+  background-color: var(--light-third);
+}
